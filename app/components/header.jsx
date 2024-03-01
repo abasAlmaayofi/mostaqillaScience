@@ -40,7 +40,7 @@ export default function Header({
         className={`relative w-scree flex justify-between items-center flex-row-reverse font-trika font-light text-xs tracking-wide `}
       >
         <div className="absolute md:left-0 -left-4  mt-4">
-          <Image src={mostaqillaSciLogo} className="w-48 h-48" />
+          <Image alt="logo" src={mostaqillaSciLogo} className="w-48 h-48" />
         </div>
         <div className="gap-6 text-white font-[5px] px-4 py-2 items-center md:flex hidden">
           <Link

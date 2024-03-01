@@ -1,4 +1,3 @@
-import Head from "next/head";
 import "./globals.css";
 import { NextUIProviders } from "./providers/nextUIProvider";
 import localFont from "@next/font/local";
@@ -27,20 +26,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${trika.variable} font-sans`}>
-      <Head>
-        <title>MostaqillaSc</title>
-        <meta
-          name="description"
-          content="القائمة المستقلة | كلية العلوم"
-          key="desc"
-        />
-        <meta property="og:title" content="Mostaqilla, Collage of Science" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://mostaqillaesc.com/" />
-        <meta property="og:image" content="/thumbnail.png" />
-        <meta name="twitter:card" content="/thumbnail.png" />
-        <link rel="icon" type="image/png" href="/logo.jpg" />
-      </Head>
       <body>
         <NextUIProviders>{children}</NextUIProviders>
       </body>

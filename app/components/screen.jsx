@@ -9,6 +9,7 @@ export default function Screen({ handleClickAdvertise, handleClickFiles }) {
   return (
     <div className="relative w-screen h-screen">
       <Image
+        alt="collageOfScience"
         src={CollageOfScienceImg}
         className="absolute top-0 w-screen h-screen z-0"
       />
