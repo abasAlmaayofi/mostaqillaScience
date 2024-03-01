@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CollageOfScienceImg from "../assets/CollageOfScienceImg.png";
+import CollageOfScienceImg from "../assets/collageOfScienceImg.png";
 import Header from "./header";
 import { MdNumbers } from "react-icons/md";
 import { HiOutlineArrowLongLeft } from "react-icons/hi2";
