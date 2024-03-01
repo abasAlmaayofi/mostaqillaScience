@@ -10,7 +10,11 @@ export default function Advertisement({ refAdvertise }) {
     <div className="w-full h-auto" ref={refAdvertise}>
       <div className="w-full md:h-[450px] h-[200px] flex ">
         <div className="w-[50%] h-full">
-          <Image src={announcementImg} className="w-full h-full" />
+          <Image
+            alt="announcement"
+            src={announcementImg}
+            className="w-full h-full"
+          />
         </div>
         <div className="w-[50%] overflow-scroll  h-full bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] flex flex-col items-end text-white font-trika  p-2">
           <h2 className="text-sm py-1 border-b border-white md:text-xl">
@@ -53,12 +57,20 @@ export default function Advertisement({ refAdvertise }) {
           </Link>
         </div>
         <div className="w-[50%] h-full">
-          <Image src={latestNewsImg} className="w-full h-full" />
+          <Image
+            alt="latestNews"
+            src={latestNewsImg}
+            className="w-full h-full"
+          />
         </div>
       </div>
       <div className="w-full md:h-[450px] h-[200px] flex ">
         <div className="w-[50%] h-full">
-          <Image src={comingEventsImg} className="w-full h-full" />
+          <Image
+            alt="comingEvents"
+            src={comingEventsImg}
+            className="w-full h-full"
+          />
         </div>
         <div className="w-[50%] overflow-scroll  h-full bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] flex flex-col items-end text-white font-trika  p-2">
           <h2 className="text-sm py-1 border-b border-white md:text-xl">
