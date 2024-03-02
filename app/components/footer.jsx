@@ -28,20 +28,20 @@ export default function Footer() {
         </Link>
       </div>
       <div className="text-sm text-gray-300 flex gap-4 mt-6">
-        <Link href="">تسجيل</Link>
-        <Link href="">الملفات</Link>
-        <Link href="">إعلانات</Link>
-        <Link href=""> حساب المعدل التراكمي </Link>
-        <Link href=""> الصفحة الرئيسية</Link>
+        {/* <Link href="">تسجيل</Link> */}
+        {/* <Link href="">الملفات</Link> */}
+        {/* <Link href="">إعلانات</Link> */}
+        <Link href="/admin"> صفحة الإدارة </Link>
+        <Link href="/gpa"> حساب المعدل التراكمي </Link>
+        <Link href="/"> الصفحة الرئيسية</Link>
       </div>
       <div className="mt-4 font-trika pt-4 w-full flex justify-center">
-        <Button
-          as={Link}
+        <Link
           href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
-          className="bg-white rounded-xl"
+          className="bg-white rounded-xl px-4 py-2"
         >
           تواصل
-        </Button>
+        </Link>
       </div>
       <div className="mt-4 border-t border-white w-[80%] flex justify-center py-4">
         <p className="text-xs text-gray-400">

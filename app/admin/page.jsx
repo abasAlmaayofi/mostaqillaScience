@@ -108,11 +108,6 @@ export default function Admin() {
           onSubmit={updateAnnouncment}
           className="w-screen bg-gray-200 h-auto flex justify-center items-center py-8"
         >
-          {file ? (
-            <Image src={file} alt="testfile" width={300} height={300} />
-          ) : (
-            ""
-          )}
           <Card className="max-w-[400px]">
             <CardHeader className="flex gap-3" dir="rtl">
               <div className="flex flex-col">
