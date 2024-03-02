@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { FaDirections } from "react-icons/fa";
-
 import { VscTriangleLeft } from "react-icons/vsc";
 import File from "./files";
 import { ScrollShadow } from "@nextui-org/react";
+
 export default function GeneralFiles({ refFiles }) {
   return (
     <div className="mt-2 font-trika" ref={refFiles}>

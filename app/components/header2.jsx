@@ -13,7 +13,7 @@ import { usePathname } from "next/navigation";
 import secureLocalStorage from "react-secure-storage";
 import { supabase } from "../services/supabaseClient";
 
-export default function Header({
+export default function Header2({
   handleClickFiles,
   handleClickAdvertise,
   admin = false,
@@ -51,60 +51,37 @@ export default function Header({
           <Image alt="logo" src={mostaqillaSciLogo} className="w-48 h-48" />
         </div>
         <div className="gap-6 text-white font-[5px] px-4 py-2 items-center md:flex hidden">
-          <button
-            onClick={handleClickScreen}
+          <Link
+            href="/"
             className={`leading-relaxed py-1  ${
               pathname == "/"
                 ? "border-b border-[#0086d7] text-white"
                 : "text-gray-600"
             }`}
           >
-            الواجهة{" "}
-          </button>
+            الصفحة الرئيسية{" "}
+          </Link>
           <Link
             href="/gpa"
             className={`leading-relaxed py-1  ${
-              pathname == "gpa"
+              pathname == "/gpa"
                 ? "border-b border-[#0086d7] text-white"
                 : "text-gray-600"
             }`}
           >
             حساب المعدل التراكمي{" "}
           </Link>
-          {authenticated ? (
-            <Link
-              href="/admin"
-              className={`leading-relaxed py-1  ${
-                pathname == "/admin"
-                  ? "border-b border-[#0086d7] text-white"
-                  : "text-gray-600"
-              }`}
-            >
-              صفحة الإدارة{" "}
-            </Link>
-          ) : (
-            ""
-          )}
-          <button
-            onClick={handleClickAdvertise}
+          <Link
+            href="/admin"
             className={`leading-relaxed py-1  ${
-              pathname == "advertisement"
+              pathname == "/admin"
                 ? "border-b border-[#0086d7] text-white"
                 : "text-gray-600"
             }`}
           >
-            إعلانات{" "}
-          </button>
-          <button
-            onClick={handleClickFiles}
-            className={`leading-relaxed py-1  ${
-              pathname == "files"
-                ? "border-b border-[#0086d7] text-white"
-                : "text-gray-600"
-            }`}
-          >
-            الملفات{" "}
-          </button>
+            صفحة الإدارة{" "}
+          </Link>
+
           <Link
             href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
             className={`leading-relaxed py-1  ${
@@ -188,61 +165,36 @@ export default function Header({
                 </Button>
               )}
 
-              <button
-                onClick={handleClickScreen}
-                className={`leading-relaxed py-1 text-right  ${
+              <Link
+                href="/"
+                className={`leading-relaxed py-1  text-right ${
                   pathname == "/"
                     ? "border-b border-[#0086d7] text-white"
                     : "text-gray-400"
                 }`}
               >
-                الواجهة{" "}
-              </button>
+                الصفحة الرئيسية{" "}
+              </Link>
               <Link
                 href="/gpa"
                 className={`leading-relaxed py-1  text-right ${
-                  pathname == "gpa"
+                  pathname == "/gpa"
                     ? "border-b border-[#0086d7] text-white"
                     : "text-gray-400"
                 }`}
               >
                 حساب المعدل التراكمي{" "}
               </Link>
-              {authenticated ? (
-                <Link
-                  href="/admin"
-                  className={`leading-relaxed py-1  ${
-                    pathname == "/admin"
-                      ? "border-b border-[#0086d7] text-white"
-                      : "text-gray-600"
-                  }`}
-                >
-                  صفحة الإدارة{" "}
-                </Link>
-              ) : (
-                ""
-              )}
-              <button
-                variant="light"
-                onClick={handleClickAdvertise}
-                className={`leading-relaxed py-1 text-right ${
-                  pathname == "advertisement"
+              <Link
+                href="/admin"
+                className={`leading-relaxed py-1  ${
+                  pathname == "/admin"
                     ? "border-b border-[#0086d7] text-white"
-                    : "text-gray-400"
+                    : "text-gray-600"
                 }`}
               >
-                إعلانات{" "}
-              </button>
-              <button
-                onClick={handleClickFiles}
-                className={`leading-relaxed py-1 text-right   ${
-                  pathname == "files"
-                    ? "border-b border-[#0086d7] text-white"
-                    : "text-gray-400"
-                }`}
-              >
-                الملفات{" "}
-              </button>
+                صفحة الإدارة{" "}
+              </Link>
               <Link
                 href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
                 className={`leading-relaxed py-1 text-right  ${
