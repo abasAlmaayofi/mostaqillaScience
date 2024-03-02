@@ -35,7 +35,13 @@ export default function Footer() {
         <Link href=""> الصفحة الرئيسية</Link>
       </div>
       <div className="mt-4 font-trika pt-4 w-full flex justify-center">
-        <Button className="bg-white rounded-xl">تواصل</Button>
+        <Button
+          as={Link}
+          href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}
+          className="bg-white rounded-xl"
+        >
+          تواصل
+        </Button>
       </div>
       <div className="mt-4 border-t border-white w-[80%] flex justify-center py-4">
         <p className="text-xs text-gray-400">
