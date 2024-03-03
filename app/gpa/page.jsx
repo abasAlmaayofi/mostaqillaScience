@@ -69,18 +69,17 @@ export default function Admin() {
             </p>
           </div>
         </div>
-        <div className="w-screen h-[540px] bg-gray-200  flex justify-center items-center py-8">
-          <Card className="min-w-[400px]">
-            {/* <CardHeader className="flex gap-3" dir="rtl">
+        <div className="w-screen min-h-[540px] bg-gray-200  flex justify-center items-center py-8">
+          <Card className="md:min-w-[400px] w-[350px]">
+            <CardHeader className="flex gap-3" dir="rtl">
               <div className="flex flex-col">
-                <p className="text-xl font-bold">إنشر إعلانك</p>
+                <p className="text-xl font-bold">إحسب معدلك</p>
                 <p className="text-small text-default-500">
-                  هام: يمكنك عرض 3 إعلانات كحد أقصى على الصفحة الرئيسية، وسيؤدي
-                  الإعلان الجديد إلى حذف آخر إعلان تم نشره
+                  هذه الخدمة مقدمة من قبل قائمة المستقلة | كليـة العلـوم
                 </p>
               </div>
             </CardHeader>
-            <Divider /> */}
+            <Divider />
             <CardBody className="min-h-[200px]">
               <CourseForm onAddCourse={handleAddCourse} />
               <CourseList

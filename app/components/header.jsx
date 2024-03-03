@@ -211,7 +211,7 @@ export default function Header({
               {authenticated ? (
                 <Link
                   href="/admin"
-                  className={`leading-relaxed py-1  ${
+                  className={`leading-relaxed py-1 text-right ${
                     pathname == "/admin"
                       ? "border-b border-[#0086d7] text-white"
                       : "text-gray-600"

@@ -26,7 +26,7 @@ const CourseForm = ({ onAddCourse }) => {
   return (
     <div className="font-mono flex gap-2 flex-row-reverse">
       <div>
-        <p className="text-right font-bold">المقرر</p>
+        <p className="text-right text-[15px] font-trika">المقرر</p>
         <Input
           dir="rtl"
           type="text"
@@ -35,7 +35,7 @@ const CourseForm = ({ onAddCourse }) => {
         />
       </div>
       <div>
-        <p className="text-right font-bold">الوحدات</p>
+        <p className="text-right text-[15px] font-trika">الوحدات</p>
         <Input
           type="number"
           dir="rtl"
@@ -45,7 +45,7 @@ const CourseForm = ({ onAddCourse }) => {
         />
       </div>
       <div>
-        <p className="text-right font-bold">الدرجة</p>
+        <p className="text-right text-[15px] font-trika">الدرجة</p>
         <Select
           className="h-full text-black w-[80px]"
           value={grade}

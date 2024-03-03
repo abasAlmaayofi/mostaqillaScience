@@ -13,6 +13,8 @@ import {
   Divider,
   Input,
   Textarea,
+  RadioGroup,
+  Radio,
 } from "@nextui-org/react";
 import { Button } from "@nextui-org/button";
 import secureLocalStorage from "react-secure-storage";
@@ -50,12 +52,12 @@ export default function Admin() {
       const { error: error1 } = await supabase
         .from("announcements")
         .update({ title: title, description: description })
-        .eq("id", 1);
+        .eq("id", id);
       const { data, error: error2 } = await supabase.storage
         .from("mostaqillaSc-main")
-        .upload(`announcements/announcements1.png`, file, {
+        .upload(`announcements/announcements${id}.png`, file, {
           cacheControl: "3600",
-          upsert: false,
+          upsert: true,
         });
       console.log(file);
       console.log("success");
@@ -68,12 +70,12 @@ export default function Admin() {
     }
   };
 
-  const handleClickAdvertise = () => {
-    push("/");
-  };
-  const handleClickFiles = () => {
-    push("/");
-  };
+  // const handleClickAdvertise = () => {
+  //   push("/");
+  // };
+  // const handleClickFiles = () => {
+  //   push("/");
+  // };
 
   useEffect(() => {
     let auth = !!secureLocalStorage.getItem("user")?.aud;
@@ -122,7 +124,7 @@ export default function Admin() {
             <CardBody>
               <div dir="rtl" className="flex flex-col items-start gap-2 mt-4">
                 <label htmlFor="title" className="font-trika text-md">
-                  العنوان
+                  العنوان{id}
                 </label>
                 <Input
                   isRequired
@@ -130,6 +132,7 @@ export default function Admin() {
                   onChange={(e) => setTitle(e.target.value)}
                 />
               </div>
+
               <div dir="rtl" className="flex flex-col items-start gap-2 mt-4">
                 {" "}
                 <label htmlFor="description" className="font-trika text-md">
@@ -140,6 +143,29 @@ export default function Admin() {
                   name="description"
                   onChange={(e) => setDescription(e.target.value)}
                 />
+              </div>
+              <div dir="rtl" className="flex flex-col items-start gap-2 mt-4">
+                {" "}
+                <label htmlFor="description" className="font-trika text-md">
+                  اختر الصف
+                </label>
+                <RadioGroup
+                  color="primary"
+                  defaultValue={1}
+                  orientation="horizontal"
+                  value={id}
+                  onValueChange={setId}
+                >
+                  <Radio className="gap-2" value={1}>
+                    الصف الاول{" "}
+                  </Radio>
+                  <Radio className="gap-2" value={2}>
+                    الصف الثاني{" "}
+                  </Radio>
+                  <Radio className="gap-2" value={3}>
+                    الصف الثالث{" "}
+                  </Radio>
+                </RadioGroup>
               </div>
               <div className="mt-8">
                 {" "}
