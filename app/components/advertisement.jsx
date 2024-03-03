@@ -4,8 +4,21 @@ import latestNewsImg from "../assets/latestnews.png";
 import comingEventsImg from "../assets/comingevents.png";
 import Link from "next/link";
 import { RiArrowLeftDoubleLine } from "react-icons/ri";
+import { supabase } from "../services/supabaseClient";
+import { useEffect, useState } from "react";
 
 export default function Advertisement({ refAdvertise }) {
+  // const [fetchedData, setFetchedData] = useState([{}]);
+  // const fetchData = async () => {
+  //   const { data, error } = await supabase.from("announcements").select();
+  //   if (error) throw error;
+  //   console.log(data);
+  //   setFetchedData(data);
+  // };
+
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
   return (
     <div className="w-full h-auto" ref={refAdvertise}>
       <div className="w-full md:h-[450px] h-[200px] flex ">
