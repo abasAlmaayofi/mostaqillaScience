@@ -29,6 +29,7 @@ export default function Admin() {
   const [title, setTitle] = useState(null);
   const [description, setDescription] = useState(null);
   const [id, setId] = useState(1);
+  const [link, setLink] = useState(null);
   const { push } = useRouter();
   const [loaded, setLoaded] = useState(false);
   const [file, setFile] = useState(null);
@@ -51,18 +52,18 @@ export default function Admin() {
     try {
       const { error: error1 } = await supabase
         .from("announcements")
-        .update({ title: title, description: description })
+        .update({ title: title, description: description, link: link })
         .eq("id", id);
-      const { data, error: error2 } = await supabase.storage
-        .from("mostaqillaSc-main")
-        .upload(`announcements/announcements${id}.png`, file, {
-          cacheControl: "3600",
-          upsert: true,
-        });
-      console.log(file);
-      console.log("success");
+      // const { data, error: error2 } = await supabase.storage
+      //   .from("mostaqillaSc-main")
+      //   .upload(`announcements/announcements${id}.png`, file, {
+      //     cacheControl: "3600",
+      //     upsert: true,
+      //   });
+      // console.log(file);
+      // console.log("success");
       openNotificationWithIcon("success");
-      if (error1 || error2) {
+      if (error1) {
         console.log("an error has occured!");
       }
     } catch (err) {
@@ -124,7 +125,7 @@ export default function Admin() {
             <CardBody>
               <div dir="rtl" className="flex flex-col items-start gap-2 mt-4">
                 <label htmlFor="title" className="font-trika text-md">
-                  العنوان{id}
+                  العنوان
                 </label>
                 <Input
                   isRequired
@@ -167,20 +168,30 @@ export default function Admin() {
                   </Radio>
                 </RadioGroup>
               </div>
-              <div className="mt-8">
+              <div dir="rtl" className="flex flex-col items-start gap-2 mt-4">
+                <label htmlFor="link" className="font-trika text-md">
+                  رابط لقراءة المزيد
+                </label>
+                <Input
+                  isRequired
+                  name="link"
+                  onChange={(e) => setLink(e.target.value)}
+                />
+              </div>
+              {/* <div className="mt-8">
                 {" "}
-                <p className="font-trika text-md ml-auto w-fit mb-2 ">صورة</p>
-                {/* <FileUploader
+                <p className="font-trika text-md ml-auto w-fit mb-2 ">صورة</p> */}
+              {/* <FileUploader
                   handleChange={handleChange}
                   name="file"
                   types={fileTypes}
                 /> */}
-                <MuiFileInput value={file} onChange={handleChange} />
+              {/* <MuiFileInput value={file} onChange={handleChange} />
                 <p className="text-small text-default-500 text-right mt-2">
                   في حالة عدم وجود صورة، سيتم اختيار صورة عشوائية من قاعدة
                   البيانات{" "}
                 </p>
-              </div>
+              </div> */}
             </CardBody>
             <Divider />
             <CardFooter dir="rtl">
