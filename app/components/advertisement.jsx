@@ -8,17 +8,17 @@ import { supabase } from "../services/supabaseClient";
 import { useEffect, useState } from "react";
 
 export default function Advertisement({ refAdvertise }) {
-  // const [fetchedData, setFetchedData] = useState([{}]);
-  // const fetchData = async () => {
-  //   const { data, error } = await supabase.from("announcements").select();
-  //   if (error) throw error;
-  //   console.log(data);
-  //   setFetchedData(data);
-  // };
+  const [fetchedData, setFetchedData] = useState([{}]);
+  const fetchData = async () => {
+    const { data, error } = await supabase.from("announcements").select();
+    if (error) throw error;
+    console.log(data[0]);
+    setFetchedData(data);
+  };
 
-  // useEffect(() => {
-  //   fetchData();
-  // }, []);
+  useEffect(() => {
+    fetchData();
+  }, []);
   return (
     <div className="w-full h-auto" ref={refAdvertise}>
       <div className="w-full md:h-[450px] h-[200px] flex ">
@@ -31,16 +31,18 @@ export default function Advertisement({ refAdvertise }) {
         </div>
         <div className="w-[50%] overflow-scroll  h-full bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] flex flex-col items-end text-white font-trika  p-2">
           <h2 className="text-sm py-1 border-b border-white md:text-xl">
-            الإعلانات
+            {fetchedData?.filter((obj) => obj?.id == 1)[0]?.title}
           </h2>
           <p className="text-[10px] text-right text-gray-200 mt-3 leading-relaxed md:text-lg md:leading-loose">
-            تبـارك القائمة المستقلة للطلبة والطالبات المقبوليـن في كليـة العلـوم
-            .. للاستفسـار عن تخصصات الكلية يرجى التواصل مع الأرقام التاليـة . ..
-            للاستفسـار عن تخصصات الكلية يرجى التواصل مع الأرقام التاليـة .{" "}
+            {fetchedData?.filter((obj) => obj?.id == 1)[0]?.description}
           </p>
           <Link
-            className="mt-2 underline text-xs flex gap-1 items-center"
-            href=""
+            className="mt-2 underline text-xs md:text-sm flex gap-1 items-center"
+            href={
+              fetchedData?.filter((obj) => obj?.id == 1)[0]?.link
+                ? fetchedData?.filter((obj) => obj?.id == 1)[0]?.link
+                : ""
+            }
           >
             اقرأ أكثر <RiArrowLeftDoubleLine size={30} />
           </Link>
@@ -55,16 +57,18 @@ export default function Advertisement({ refAdvertise }) {
         </div> */}
         <div className="w-[50%]   h-full bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] flex flex-col items-end text-white font-trika  p-2 overflow-scroll">
           <h2 className="text-sm py-1 border-b border-white md:text-xl">
-            أحدث الأخبار
+            {fetchedData?.filter((obj) => obj?.id == 2)[0]?.title}
           </h2>
           <p className="text-[10px] text-right text-gray-200 mt-3 leading-relaxed md:text-lg md:leading-loose">
-            شكـراً لـ 833 طالب و طالبة ممن منحونا الثقة و شكراً لمن اعفانا من
-            حمل هذه المسؤولية . كما ستـبقى القائمة المستقلة في كلية العلوم في
-            خدمتكم دائماً .. فيك أمضي أجدد العهد
+            {fetchedData?.filter((obj) => obj?.id == 2)[0]?.description}
           </p>
           <Link
-            className="mt-2 underline text-xs flex gap-1 items-center"
-            href=""
+            className="mt-2 underline text-xs md:text-sm flex gap-1 items-center"
+            href={
+              fetchedData?.filter((obj) => obj?.id == 2)[0]?.link
+                ? fetchedData?.filter((obj) => obj?.id == 2)[0]?.link
+                : ""
+            }
           >
             اقرأ أكثر <RiArrowLeftDoubleLine size={30} />
           </Link>
@@ -87,16 +91,18 @@ export default function Advertisement({ refAdvertise }) {
         </div>
         <div className="w-[50%] overflow-scroll  h-full bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] flex flex-col items-end text-white font-trika  p-2">
           <h2 className="text-sm py-1 border-b border-white md:text-xl">
-            مـسابـقات{" "}
+            {fetchedData?.filter((obj) => obj?.id == 3)[0]?.title}
           </h2>
           <p className="text-[10px] text-right text-gray-200 mt-3 leading-relaxed md:text-lg md:leading-loose">
-            السؤال: ما اسم مرضعة النبيّ عليه الصلاة والسلام؟ شروط المسابقة: -
-            طالب أو طالبة في كلية العلوم. -متابعة حساب القائمة في تويتر - رتويت
-            للتغريدة الجـائزة: 50KD
+            {fetchedData?.filter((obj) => obj?.id == 3)[0]?.description}
           </p>
           <Link
-            className="mt-2 underline text-xs flex gap-1 items-center"
-            href=""
+            className="mt-2 underline text-xs md:text-sm flex gap-1 items-center"
+            href={
+              fetchedData?.filter((obj) => obj?.id == 3)[0]?.link
+                ? fetchedData?.filter((obj) => obj?.id == 3)[0]?.link
+                : ""
+            }
           >
             اقرأ أكثر <RiArrowLeftDoubleLine size={30} />
           </Link>
