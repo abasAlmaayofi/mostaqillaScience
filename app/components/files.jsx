@@ -8,7 +8,7 @@ export default function File({ href, text }) {
       <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
         <Link href={href} className="flex justify-center items-center gap-2">
           <FaDirections size={25} />
-          <span className="md:text-[13px] text-[10px]">إطلع</span>
+          <span className="md:text-[13px] text-[10px]">اطلع</span>
         </Link>
       </div>
       <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">

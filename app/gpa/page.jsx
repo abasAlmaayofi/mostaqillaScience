@@ -73,7 +73,7 @@ export default function Admin() {
           <Card className="md:min-w-[400px] w-[350px]">
             <CardHeader className="flex gap-3" dir="rtl">
               <div className="flex flex-col">
-                <p className="text-xl font-bold">إحسب معدلك</p>
+                <p className="text-xl font-bold">احسب معدلك</p>
                 <p className="text-small text-default-500">
                   هذه الخدمة مقدمة من قبل قائمة المستقلة | كليـة العلـوم
                 </p>
