@@ -130,7 +130,7 @@ export default function Header2({
             animate={{ x: 0 }}
             exit={{ x: 1000 }}
             transition={{ type: "spring", stiffness: 40 }}
-            className="fixed inset-0 left-[30%] bg-black/60 backdrop-blur-sm z-40"
+            className="fixed inset-0 left-[30%] bg-black/70 backdrop-blur-lg z-40"
           >
             <div className="text-white pt-2">
               <Button
@@ -187,7 +187,7 @@ export default function Header2({
               </Link>
               <Link
                 href="/admin"
-                className={`leading-relaxed py-1  ${
+                className={`leading-relaxed py-1 text-right ${
                   pathname == "/admin"
                     ? "border-b border-[#0086d7] text-white"
                     : "text-gray-600"
