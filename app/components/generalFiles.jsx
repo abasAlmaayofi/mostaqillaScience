@@ -18,7 +18,7 @@ export default function GeneralFiles({ refFiles }) {
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
-                <span className="md:text-[13px] text-[10px]">إطلع</span>
+                <span className="md:text-[13px] text-[10px]">اطلع</span>
               </Link>
             </div>
             <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
@@ -38,7 +38,7 @@ export default function GeneralFiles({ refFiles }) {
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
-                <span className="md:text-[13px] text-[10px]">إطلع</span>
+                <span className="md:text-[13px] text-[10px]">اطلع</span>
               </Link>
             </div>
             <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
@@ -58,7 +58,7 @@ export default function GeneralFiles({ refFiles }) {
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
-                <span className="md:text-[13px] text-[10px]">إطلع</span>
+                <span className="md:text-[13px] text-[10px]">اطلع</span>
               </Link>
             </div>
             <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
@@ -78,7 +78,7 @@ export default function GeneralFiles({ refFiles }) {
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
-                <span className="md:text-[13px] text-[10px]">إطلع</span>
+                <span className="md:text-[13px] text-[10px]">اطلع</span>
               </Link>
             </div>
             <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
@@ -98,7 +98,7 @@ export default function GeneralFiles({ refFiles }) {
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
-                <span className="md:text-[13px] text-[10px]">إطلع</span>
+                <span className="md:text-[13px] text-[10px]">اطلع</span>
               </Link>
             </div>
             <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
@@ -118,7 +118,7 @@ export default function GeneralFiles({ refFiles }) {
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
-                <span className="md:text-[13px] text-[10px]">إطلع</span>
+                <span className="md:text-[13px] text-[10px]">اطلع</span>
               </Link>
             </div>
             <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
@@ -138,7 +138,7 @@ export default function GeneralFiles({ refFiles }) {
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
-                <span className="md:text-[13px] text-[10px]">إطلع</span>
+                <span className="md:text-[13px] text-[10px]">اطلع</span>
               </Link>
             </div>
             <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
@@ -158,7 +158,7 @@ export default function GeneralFiles({ refFiles }) {
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
-                <span className="md:text-[13px] text-[10px]">إطلع</span>
+                <span className="md:text-[13px] text-[10px]">اطلع</span>
               </Link>
             </div>
             <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
@@ -179,7 +179,7 @@ export default function GeneralFiles({ refFiles }) {
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
-                <span className="md:text-[13px] text-[10px]">إطلع</span>
+                <span className="md:text-[13px] text-[10px]">اطلع</span>
               </Link>
             </div>
             <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
@@ -199,7 +199,7 @@ export default function GeneralFiles({ refFiles }) {
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
-                <span className="md:text-[13px] text-[10px]">إطلع</span>
+                <span className="md:text-[13px] text-[10px]">اطلع</span>
               </Link>
             </div>
             <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">

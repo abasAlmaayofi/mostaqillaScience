@@ -214,7 +214,7 @@ export default function Header({
                   className={`leading-relaxed py-1 text-right ${
                     pathname == "/admin"
                       ? "border-b border-[#0086d7] text-white"
-                      : "text-gray-600"
+                      : "text-gray-400"
                   }`}
                 >
                   صفحة الإدارة{" "}

@@ -33,13 +33,13 @@ export default function Advertisement({ refAdvertise }) {
           <h2 className="text-sm py-1 border-b border-white md:text-xl">
             الإعلانات
           </h2>
-          <p className="text-xs text-right text-gray-200 mt-3 leading-relaxed md:text-lg md:leading-loose">
+          <p className="text-[10px] text-right text-gray-200 mt-3 leading-relaxed md:text-lg md:leading-loose">
             تبـارك القائمة المستقلة للطلبة والطالبات المقبوليـن في كليـة العلـوم
             .. للاستفسـار عن تخصصات الكلية يرجى التواصل مع الأرقام التاليـة . ..
             للاستفسـار عن تخصصات الكلية يرجى التواصل مع الأرقام التاليـة .{" "}
           </p>
           <Link
-            className="mt-2 underline text-sm flex gap-1 items-center"
+            className="mt-2 underline text-xs flex gap-1 items-center"
             href=""
           >
             اقرأ أكثر <RiArrowLeftDoubleLine size={30} />
@@ -57,13 +57,13 @@ export default function Advertisement({ refAdvertise }) {
           <h2 className="text-sm py-1 border-b border-white md:text-xl">
             أحدث الأخبار
           </h2>
-          <p className="text-xs text-right text-gray-200 mt-3 leading-relaxed md:text-lg md:leading-loose">
+          <p className="text-[10px] text-right text-gray-200 mt-3 leading-relaxed md:text-lg md:leading-loose">
             شكـراً لـ 833 طالب و طالبة ممن منحونا الثقة و شكراً لمن اعفانا من
             حمل هذه المسؤولية . كما ستـبقى القائمة المستقلة في كلية العلوم في
             خدمتكم دائماً .. فيك أمضي أجدد العهد
           </p>
           <Link
-            className="mt-2 underline text-sm flex gap-1 items-center"
+            className="mt-2 underline text-xs flex gap-1 items-center"
             href=""
           >
             اقرأ أكثر <RiArrowLeftDoubleLine size={30} />
@@ -89,13 +89,13 @@ export default function Advertisement({ refAdvertise }) {
           <h2 className="text-sm py-1 border-b border-white md:text-xl">
             مـسابـقات{" "}
           </h2>
-          <p className="text-xs text-right text-gray-200 mt-3 leading-relaxed md:text-lg md:leading-loose">
+          <p className="text-[10px] text-right text-gray-200 mt-3 leading-relaxed md:text-lg md:leading-loose">
             السؤال: ما اسم مرضعة النبيّ عليه الصلاة والسلام؟ شروط المسابقة: -
             طالب أو طالبة في كلية العلوم. -متابعة حساب القائمة في تويتر - رتويت
             للتغريدة الجـائزة: 50KD
           </p>
           <Link
-            className="mt-2 underline text-sm flex gap-1 items-center"
+            className="mt-2 underline text-xs flex gap-1 items-center"
             href=""
           >
             اقرأ أكثر <RiArrowLeftDoubleLine size={30} />
