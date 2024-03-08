@@ -6,25 +6,23 @@ import Middle from "./components/middle";
 import Footer from "./components/footer";
 import { useEffect, useRef } from "react";
 import { supabase } from "./services/supabaseClient";
-import secureLocalStorage from "react-secure-storage";
 
 export default function Home() {
   var visitorsCounter;
   const updateVisitorsCount = async (e) => {
-    visitorsCounter = secureLocalStorage.getItem("visitorsCounter");
-    if (!visitorsCounter) {
-      visitorsCounter = secureLocalStorage.setItem("visitorsCounter", 1);
-    }
-
     try {
+      const { data, error: error1 } = await supabase
+        .from("stat")
+        .select()
+        .eq("id", 1);
+      visitorsCounter = data?.[0]?.visitorsCounter;
       visitorsCounter += 1;
       console.log("visitors", visitorsCounter);
-      const { error } = await supabase
+      const { error: error2 } = await supabase
         .from("stat")
         .upsert({ id: 1, visitorsCounter: visitorsCounter });
-      secureLocalStorage.setItem("visitorsCounter", visitorsCounter);
-    } catch (error) {
-      console.log(err);
+    } catch (error1) {
+      console.log(error1);
     }
   };
   useEffect(() => {
