@@ -153,7 +153,7 @@ export default function Header({
             animate={{ x: 0 }}
             exit={{ x: 1000 }}
             transition={{ type: "spring", stiffness: 40 }}
-            className="fixed inset-0 left-[30%] bg-black/60 backdrop-blur-sm z-40"
+            className="fixed inset-0 left-[30%] bg-black/80 backdrop-blur-lg  z-40"
           >
             <div className="text-white pt-2">
               <Button

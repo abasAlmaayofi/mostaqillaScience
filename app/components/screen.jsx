@@ -5,7 +5,15 @@ import { MdNumbers } from "react-icons/md";
 import { HiOutlineArrowLongLeft } from "react-icons/hi2";
 import ArrowIcon from "../assets/icons/arrowIcon";
 import { Button } from "@nextui-org/button";
+import { useEffect, useState } from "react";
+import secureLocalStorage from "react-secure-storage";
+
 export default function Screen({ handleClickAdvertise, handleClickFiles }) {
+  const [visitorsCounter, setVisitorsCounter] = useState(null);
+  useEffect(() => {
+    let count = secureLocalStorage.getItem("visitorsCounter");
+    setVisitorsCounter(count);
+  }, [visitorsCounter]);
   return (
     <div className="relative w-screen h-screen">
       <Image
@@ -21,7 +29,8 @@ export default function Screen({ handleClickAdvertise, handleClickFiles }) {
         <div className="flex md:justify-between justify-around items-center w-screen relative lg:top-[150px] md:top-[50px] top-[100px] text-white z-20">
           <div className="relative lg:-top-28  -top-[85px] md:ml-20 ml-2 w-32 md:w-44  border border-white rounded-lg  p-2 h-28">
             <p className="md:text-3xl text-2xl text-right mb-1 flex text-white items-center justify-end">
-              <MdNumbers /> 2240
+              <MdNumbers />{" "}
+              {visitorsCounter ? JSON.stringify(visitorsCounter) : ""}
             </p>
             <p className=" text-right tracking-wide md:text-xl text-gray-300">
               عدد الزائريين
@@ -68,7 +77,7 @@ export default function Screen({ handleClickAdvertise, handleClickFiles }) {
           className="absolute md:borrom-10 bottom-20 backdrop-blur-sm bg-[#0086d7]/20 rounded-lg p-2  right-0 md:mr-40 md:mb-0 mr-6 mb-16 cursor-pointer hover:backdrop-blur-lg"
         >
           {/* <Button variant="light" size="lg"> */}
-          <ArrowIcon width={40} height={100} />
+          <ArrowIcon width={40} height={80} />
           {/* </Button> */}
         </div>
       </div>

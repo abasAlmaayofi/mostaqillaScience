@@ -44,6 +44,9 @@ const ruwudu = localFont({
 export const metadata = {
   title: "القائمة المستقلة - كلية العلوم",
   description: "تقدم لكم القائمة المستقلة كل ما يخص الطلبة في كلية العلوم",
+  openGraph: {
+    images: "../public/thumbnail.png",
+  },
 };
 
 export default function RootLayout({ children }) {
