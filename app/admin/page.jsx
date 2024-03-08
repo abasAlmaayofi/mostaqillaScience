@@ -98,7 +98,7 @@ export default function Admin() {
         <div className="relative w-screen h-[250px] bg-gradient-to-b to-black from-gray-800">
           <Header2 />
           <div className="w-full h-full flex flex-col justify-center items-center z-0">
-            <p className="text-2xl md:text-3xl text-white font-trika relative -top-10">
+            <p className="text-2xl md:text-3xl text-white font-trika relative -top-10 leading-loose border-b border-[#2aadff]">
               صفحة الإدارة
             </p>
             <p className="text-lg relative -top-5 flex gap-2 text-right text-gray-300 font-trika">
