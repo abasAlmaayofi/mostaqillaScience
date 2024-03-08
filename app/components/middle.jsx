@@ -1,4 +1,5 @@
 import Advertisement from "./advertisement";
+import FacultySongs from "./facultySongs";
 import GeneralFiles from "./generalFiles";
 import StudentGuidelines from "./studentGuidelines";
 
@@ -8,6 +9,7 @@ export default function Middle({ refAdvertise, refFiles }) {
       <Advertisement refAdvertise={refAdvertise} />
       <StudentGuidelines />
       <GeneralFiles refFiles={refFiles} />
+      <FacultySongs />
     </div>
   );
 }
