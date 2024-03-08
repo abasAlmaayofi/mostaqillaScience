@@ -21,8 +21,7 @@ export default function Home() {
       console.log("visitors", visitorsCounter);
       const { error } = await supabase
         .from("stat")
-        .update({ visitorsCounter: visitorsCounter })
-        .eq("id", 1);
+        .upsert({ id: 1, visitorsCounter: visitorsCounter });
       secureLocalStorage.setItem("visitorsCounter", visitorsCounter);
     } catch (error) {
       console.log(err);

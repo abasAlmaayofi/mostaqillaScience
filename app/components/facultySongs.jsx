@@ -17,7 +17,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/369235907&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -61,7 +61,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/408503169&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -105,7 +105,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/442829769&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -149,7 +149,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/223551826&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -193,7 +193,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/460127112&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -238,7 +238,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1365504856&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -283,7 +283,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/460123770&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -328,7 +328,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/450882579&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -372,7 +372,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/450880983&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -416,7 +416,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/411232602&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -460,7 +460,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/405216108&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -504,7 +504,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/404637411&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -548,7 +548,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/404637411&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -592,7 +592,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/369236753&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -636,7 +636,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/223646758&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -680,7 +680,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/223646802&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -724,7 +724,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/223646839&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -768,7 +768,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1365504856&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -812,7 +812,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/534765768&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -856,7 +856,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/534765870&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -900,7 +900,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/534765885&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -943,7 +943,7 @@ export default function FacultySongs() {
               width="150%"
               height="300"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/646402110&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -987,7 +987,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/534765915&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -1031,7 +1031,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/534765804&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -1075,7 +1075,7 @@ export default function FacultySongs() {
               height="300"
               className="mr-52"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/223646735&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -1118,7 +1118,7 @@ export default function FacultySongs() {
               width="150%"
               height="300"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/468010719&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
@@ -1161,7 +1161,7 @@ export default function FacultySongs() {
               width="150%"
               height="300"
               scrolling="no"
-              frameborder="no"
+              frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/369237854&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
