@@ -1,6 +1,7 @@
 import { Button } from "@nextui-org/button";
 import Link from "next/link";
-import { FaInstagram, FaTiktok, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
           href="https://twitter.com/MostaqillaSc"
           className="p-1 bg-white text-black rounded-full"
         >
-          <FaTwitter size={20} />
+          <FaXTwitter size={20} />
         </Link>
         <Link
           href="https://www.tiktok.com/@mostaqilla_sc"

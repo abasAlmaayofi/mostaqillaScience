@@ -2,7 +2,7 @@ import Image from "next/image";
 import CollageOfScienceImg from "../assets/collageOfScienceImg.png";
 import Header from "./header";
 import { MdNumbers } from "react-icons/md";
-import { HiOutlineArrowLongLeft } from "react-icons/hi2";
+import { GoDotFill } from "react-icons/go";
 import ArrowIcon from "../assets/icons/arrowIcon";
 import { Button } from "@nextui-org/button";
 import { useEffect, useState } from "react";
@@ -67,7 +67,7 @@ export default function Screen({ handleClickAdvertise, handleClickFiles }) {
               <span className="pl-2 border-b border-[#2aadff] w-fit ml-auto leading-loose">
                 قائمة إسلامية وطنية معتدلة
               </span>{" "}
-              <HiOutlineArrowLongLeft size={30} />
+              <GoDotFill size={30} />
               {/* من رحم الأسئلة, تنبثق الإجابات المضيئة, كلية العلوم: نستكشف,
               نبتكر, نلهم */}
             </p>
@@ -75,7 +75,7 @@ export default function Screen({ handleClickAdvertise, handleClickFiles }) {
               <span className="pl-2 border-b w-[250px] border-[#2aadff] ml-auto leading-loose">
                 تسعى لإستقلالية الحركة الطلابية{" "}
               </span>
-              <HiOutlineArrowLongLeft size={30} />
+              <GoDotFill size={30} />
               {/* من رحم الأسئلة, تنبثق الإجابات المضيئة, كلية العلوم: نستكشف,
               نبتكر, نلهم */}
             </p>
