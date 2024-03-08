@@ -7,12 +7,21 @@ import ArrowIcon from "../assets/icons/arrowIcon";
 import { Button } from "@nextui-org/button";
 import { useEffect, useState } from "react";
 import secureLocalStorage from "react-secure-storage";
+import { supabase } from "../services/supabaseClient";
 
 export default function Screen({ handleClickAdvertise, handleClickFiles }) {
   const [visitorsCounter, setVisitorsCounter] = useState(null);
+  const getVisitorsCount = async () => {
+    const { data, error } = await supabase.from("stat").select().eq("id", 1);
+    console.log("data visitors", data);
+    setVisitorsCounter(data?.[0]?.visitorsCounter);
+    if (error) {
+      console.log("Err", error);
+    }
+    // return setVisitorsCounter(data);
+  };
   useEffect(() => {
-    let count = secureLocalStorage.getItem("visitorsCounter");
-    setVisitorsCounter(count);
+    getVisitorsCount();
   }, [visitorsCounter]);
   return (
     <div className="relative w-screen h-screen">
@@ -62,8 +71,8 @@ export default function Screen({ handleClickAdvertise, handleClickFiles }) {
               {/* من رحم الأسئلة, تنبثق الإجابات المضيئة, كلية العلوم: نستكشف,
               نبتكر, نلهم */}
             </p>
-            <p className="mt-2 mr-6 text-gray-300 text-sm tracking-wide font-trika flex gap-2 justify-end items-center">
-              <span className="pl-2 border-b border-[#2aadff] w-fit ml-auto leading-loose">
+            <p className="mt-2 mr-6  text-gray-300 text-sm tracking-wide font-trika flex gap-2 justify-end items-center">
+              <span className="pl-2 border-b w-[250px] border-[#2aadff] ml-auto leading-loose">
                 تسعى لإستقلالية الحركة الطلابية{" "}
               </span>
               <HiOutlineArrowLongLeft size={30} />
@@ -74,7 +83,7 @@ export default function Screen({ handleClickAdvertise, handleClickFiles }) {
         </div>
         <div
           onClick={handleClickAdvertise}
-          className="absolute md:borrom-10 bottom-20 backdrop-blur-sm bg-[#0086d7]/20 rounded-lg p-2  right-0 md:mr-40 md:mb-0 mr-6 mb-16 cursor-pointer hover:backdrop-blur-lg"
+          className="absolute md:borrom-10 bottom-6 backdrop-blur-sm bg-[#0086d7]/20 rounded-lg p-2  right-0 md:mr-40 md:mb-0 mr-6 mb-10 cursor-pointer hover:backdrop-blur-lg"
         >
           {/* <Button variant="light" size="lg"> */}
           <ArrowIcon width={40} height={80} />
