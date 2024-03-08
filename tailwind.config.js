@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         trika: ["var(--font-trika)"],
+        ruwudu: ["var(--font-ruwudu)"],
       },
     },
   },

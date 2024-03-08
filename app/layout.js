@@ -19,6 +19,28 @@ const trika = localFont({
   variable: "--font-trika",
 });
 
+const ruwudu = localFont({
+  src: [
+    {
+      path: "../public/fonts/Ruwudu-Bold.ttf",
+      weight: "700",
+    },
+    {
+      path: "../public/fonts/Ruwudu-SemiBold.ttf",
+      weight: "600",
+    },
+    {
+      path: "../public/fonts/Ruwudu-Medium.ttf",
+      weight: "500",
+    },
+    {
+      path: "../public/fonts/Ruwudu-Regular.ttf",
+      weight: "300",
+    },
+  ],
+  variable: "--font-ruwudu",
+});
+
 export const metadata = {
   title: "القائمة المستقلة - كلية العلوم",
   description: "تقدم لكم القائمة المستقلة كل ما يخص الطلبة في كلية العلوم",
@@ -26,7 +48,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${trika.variable} font-sans`}>
+    <html
+      lang="en"
+      className={`${trika.variable} ${ruwudu.variable} font-sans`}
+    >
       {/* <Head>
         <link rel="shortcut icon" href="/static/favicon.ico" />
       </Head> */}
