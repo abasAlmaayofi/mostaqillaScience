@@ -18,6 +18,8 @@ import CourseList from "../components/courseList";
 
 export default function Admin() {
   const [courses, setCourses] = useState([]);
+  const [prevGrade, setPrevGrade] = useState(0);
+  const [prevCredits, setPrevCredits] = useState(0);
 
   const handleAddCourse = (newCourse) => {
     setCourses([...courses, newCourse]);
@@ -29,18 +31,18 @@ export default function Admin() {
   };
 
   const gradePoints = {
-    "A+": 4.0,
     A: 4.0,
-    "A-": 3.7,
-    "B+": 3.3,
+    "A-": 3.67,
+    "B+": 3.33,
     B: 3.0,
-    "B-": 2.7,
-    "C+": 2.3,
+    "B-": 2.67,
+    "C+": 2.33,
     C: 2.0,
-    "C-": 1.7,
-    "D+": 1.3,
+    "C-": 1.67,
+    "D+": 1.33,
     D: 1.0,
-    "D-": 0.7,
+    F: 0.0,
+    FA: 0.0,
   };
 
   const calculateGPA = () => {
@@ -51,8 +53,12 @@ export default function Admin() {
       totalGradePoints += gradePoints[course.grade] * course.creditHours;
       totalCreditHours += course.creditHours;
     });
-
-    return totalCreditHours === 0 ? 0 : totalGradePoints / totalCreditHours;
+    let prevPoints = prevGrade * prevCredits;
+    totalCreditHours = Number(prevCredits) + Number(totalCreditHours);
+    totalGradePoints = Number(prevPoints) + Number(totalGradePoints);
+    return totalCreditHours == prevCredits
+      ? prevGrade
+      : totalGradePoints / totalCreditHours;
   };
 
   return (
@@ -81,7 +87,13 @@ export default function Admin() {
             </CardHeader>
             <Divider />
             <CardBody className="min-h-[200px]">
-              <CourseForm onAddCourse={handleAddCourse} />
+              <CourseForm
+                onAddCourse={handleAddCourse}
+                prevGrade={prevGrade}
+                prevCredits={prevCredits}
+                setPrevCredits={setPrevCredits}
+                setPrevGrade={setPrevGrade}
+              />
               <CourseList
                 courses={courses}
                 onDeleteCourse={handleDeleteCourse}
