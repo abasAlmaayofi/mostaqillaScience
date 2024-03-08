@@ -10,6 +10,46 @@ export default function GeneralFiles({ refFiles }) {
       <h2 className="text-xl tracking-wide text-right">ملفات عامة</h2>
       <ScrollShadow className="mt-2 max-h-[500px] overflow-x-hidden">
         <div className="h-full">
+          <div className="flex justify-between w-full h-12 my-2">
+            <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
+              <Link
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/moralValuesFaculty.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9tb3JhbFZhbHVlc0ZhY3VsdHkuanBlZyIsImlhdCI6MTcwOTIyMDc2NiwiZXhwIjoxNzQwNzU2NzY2fQ.ehgFpU3-vjPSogL0GagizKr-jr3deZHFiocxS4exaos&t=2024-02-29T15%3A32%3A46.656Z"
+                className="flex justify-center items-center gap-2"
+              >
+                <FaDirections size={25} />
+                <span className="md:text-[13px] text-[10px]">اطلع</span>
+              </Link>
+            </div>
+            <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
+              <p className="mr-4 md:text-[16px] text-[12px] text-right text-gray-600">
+                تعريف ومبادئ القائمة المستقلة في كلية العلوم{" "}
+              </p>
+              <span className="absolute top-1/2 -right-[9px] -translate-y-1/2 text-[#34769f]">
+                <VscTriangleLeft size={30} />
+              </span>
+            </div>
+          </div>
+          <div className="flex justify-between w-full h-12 my-2">
+            <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
+              <Link
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/progressFaculty.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9wcm9ncmVzc0ZhY3VsdHkuanBlZyIsImlhdCI6MTcwOTIyMDY3MSwiZXhwIjoxNzQwNzU2NjcxfQ.F61lQDh1eD6YXUQPktf1nms-7mWsuz2z7VQRObDnAHE&t=2024-02-29T15%3A31%3A11.832Z"
+                className="flex justify-center items-center gap-2"
+              >
+                <FaDirections size={25} />
+                <span className="md:text-[13px] text-[10px]">اطلع</span>
+              </Link>
+            </div>
+            <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
+              <p className="mr-4 md:text-[16px] text-[12px] text-right text-gray-600">
+                انجازات وتحركات القائمة المستقله{" "}
+              </p>
+              <span className="absolute top-1/2 -right-[9px] -translate-y-1/2 text-[#34769f]">
+                <VscTriangleLeft size={30} />
+              </span>
+            </div>
+          </div>
+          {/* 8 */}
+
           {/* 1 */}
           <div className="flex justify-between w-full h-12 my-2">
             <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
@@ -131,45 +171,6 @@ export default function GeneralFiles({ refFiles }) {
             </div>
           </div>
           {/* 7 */}
-          <div className="flex justify-between w-full h-12 my-2">
-            <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
-              <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/progressFaculty.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9wcm9ncmVzc0ZhY3VsdHkuanBlZyIsImlhdCI6MTcwOTIyMDY3MSwiZXhwIjoxNzQwNzU2NjcxfQ.F61lQDh1eD6YXUQPktf1nms-7mWsuz2z7VQRObDnAHE&t=2024-02-29T15%3A31%3A11.832Z"
-                className="flex justify-center items-center gap-2"
-              >
-                <FaDirections size={25} />
-                <span className="md:text-[13px] text-[10px]">اطلع</span>
-              </Link>
-            </div>
-            <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
-              <p className="mr-4 md:text-[16px] text-[12px] text-right text-gray-600">
-                انجازات وتحركات القائمة المستقله{" "}
-              </p>
-              <span className="absolute top-1/2 -right-[9px] -translate-y-1/2 text-[#34769f]">
-                <VscTriangleLeft size={30} />
-              </span>
-            </div>
-          </div>
-          {/* 8 */}
-          <div className="flex justify-between w-full h-12 my-2">
-            <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
-              <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/moralValuesFaculty.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9tb3JhbFZhbHVlc0ZhY3VsdHkuanBlZyIsImlhdCI6MTcwOTIyMDc2NiwiZXhwIjoxNzQwNzU2NzY2fQ.ehgFpU3-vjPSogL0GagizKr-jr3deZHFiocxS4exaos&t=2024-02-29T15%3A32%3A46.656Z"
-                className="flex justify-center items-center gap-2"
-              >
-                <FaDirections size={25} />
-                <span className="md:text-[13px] text-[10px]">اطلع</span>
-              </Link>
-            </div>
-            <div className="relative w-[80%] h-full bg-gray-200 flex justify-end items-center">
-              <p className="mr-4 md:text-[16px] text-[12px] text-right text-gray-600">
-                تعريف ومبادئ القائمة المستقلة في كلية العلوم{" "}
-              </p>
-              <span className="absolute top-1/2 -right-[9px] -translate-y-1/2 text-[#34769f]">
-                <VscTriangleLeft size={30} />
-              </span>
-            </div>
-          </div>
 
           {/* 9 */}
           <div className="flex justify-between w-full h-12 my-2">

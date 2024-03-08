@@ -82,7 +82,7 @@ export default function Screen({ handleClickAdvertise, handleClickFiles }) {
           </div>
         </div>
         <div
-          onClick={handleClickAdvertise}
+          onClick={handleClickFiles}
           className="absolute md:borrom-10 bottom-6 backdrop-blur-sm bg-[#0086d7]/20 rounded-lg p-2  right-0 md:mr-40 md:mb-0 mr-6 mb-10 cursor-pointer hover:backdrop-blur-lg"
         >
           {/* <Button variant="light" size="lg"> */}
