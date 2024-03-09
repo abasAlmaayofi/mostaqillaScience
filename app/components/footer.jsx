@@ -11,21 +11,21 @@ export default function Footer() {
           href="https://twitter.com/MostaqillaSc"
           className="p-1 bg-white text-black rounded-full"
         >
-          <FaXTwitter size={20} />
+          <FaXTwitter size={30} />
         </Link>
         <Link
           href="https://www.tiktok.com/@mostaqilla_sc"
           className="p-1 bg-white text-black rounded-full"
         >
           {" "}
-          <FaTiktok size={20} />
+          <FaTiktok size={30} />
         </Link>
         <Link
           href="https://www.instagram.com/mostaqilla_sc/"
           className="p-1 bg-white text-black rounded-full"
         >
           {" "}
-          <FaInstagram size={20} />
+          <FaInstagram size={30} />
         </Link>
       </div>
       <div className="text-sm text-gray-300 flex gap-4 mt-6">
