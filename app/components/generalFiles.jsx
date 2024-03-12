@@ -13,7 +13,7 @@ export default function GeneralFiles({ refFiles }) {
           <div className="flex justify-between w-full h-12 my-2">
             <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
               <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/moralValuesFaculty.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9tb3JhbFZhbHVlc0ZhY3VsdHkuanBlZyIsImlhdCI6MTcwOTIyMDc2NiwiZXhwIjoxNzQwNzU2NzY2fQ.ehgFpU3-vjPSogL0GagizKr-jr3deZHFiocxS4exaos&t=2024-02-29T15%3A32%3A46.656Z"
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/facultyMission.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9mYWN1bHR5TWlzc2lvbi5qcGciLCJpYXQiOjE3MTAyNTE1NDcsImV4cCI6MTc0MTc4NzU0N30.6msx1LSw7qP4ms36IWePZbU6B6ODy5c9b1Nxlqzn6gs&t=2024-03-12T13%3A52%3A26.920Z"
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
@@ -32,7 +32,7 @@ export default function GeneralFiles({ refFiles }) {
           <div className="flex justify-between w-full h-12 my-2">
             <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
               <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/progressFaculty.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9wcm9ncmVzc0ZhY3VsdHkuanBlZyIsImlhdCI6MTcwOTIyMDY3MSwiZXhwIjoxNzQwNzU2NjcxfQ.F61lQDh1eD6YXUQPktf1nms-7mWsuz2z7VQRObDnAHE&t=2024-02-29T15%3A31%3A11.832Z"
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/facultyAchievments.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9mYWN1bHR5QWNoaWV2bWVudHMuanBnIiwiaWF0IjoxNzEwMjUxNTYyLCJleHAiOjE3NDE3ODc1NjJ9.o7qYvQiFmxJbcGyF8sAfuXtqAC4zNbfCbMgnRMmc4Rg&t=2024-03-12T13%3A52%3A42.163Z"
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
@@ -54,7 +54,7 @@ export default function GeneralFiles({ refFiles }) {
           <div className="flex justify-between w-full h-12 my-2">
             <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
               <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/systemSymbols.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9zeXN0ZW1TeW1ib2xzLnBkZiIsImlhdCI6MTcwOTIxOTMxMywiZXhwIjoxNzQwNzU1MzEzfQ.Pj7d3MjvSJs0STgtDRMi0Q1IMmjq1sG_j1Odg_JwYrw&t=2024-02-29T15%3A08%3A33.724Z"
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/symbolsRegistration.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9zeW1ib2xzUmVnaXN0cmF0aW9uLnBkZiIsImlhdCI6MTcxMDI3MjQyMiwiZXhwIjoxNzQxODA4NDIyfQ.C718ZLmp-VXIecUlepYu92re1CfHtt058tXGDOeUOfU&t=2024-03-12T19%3A40%3A21.346Z"
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
@@ -74,7 +74,7 @@ export default function GeneralFiles({ refFiles }) {
           <div className="flex justify-between w-full h-12 my-2">
             <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
               <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/registeration.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9yZWdpc3RlcmF0aW9uLnBkZiIsImlhdCI6MTcwOTIxOTU3MywiZXhwIjoxODY2ODk5NTczfQ.kIyBwh_cReZsVISWnHyYgD-eWtnUPs-hzDw9e2vA1ac&t=2024-02-29T15%3A12%3A53.190Z"
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/registerationAndwithdraw.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9yZWdpc3RlcmF0aW9uQW5kd2l0aGRyYXcucGRmIiwiaWF0IjoxNzEwMjcyNDU5LCJleHAiOjE3NDE4MDg0NTl9.3fqvxmWXGD3a1-lczmorj8j9wvM7sa0V-_1ZJkxF3F4&t=2024-03-12T19%3A40%3A58.416Z"
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
@@ -94,7 +94,7 @@ export default function GeneralFiles({ refFiles }) {
           <div className="flex justify-between w-full h-12 my-2">
             <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
               <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/stepsOfRegisteration.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9zdGVwc09mUmVnaXN0ZXJhdGlvbi5qcGVnIiwiaWF0IjoxNzA5MjE5ODQwLCJleHAiOjE3NDA3NTU4NDB9.pXoZ83avS6tX-jjj9p6WiGowJzajIxIPtAT_p3XUTvk&t=2024-02-29T15%3A17%3A20.013Z"
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/bestList%20(1).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9iZXN0TGlzdCAoMSkuanBnIiwiaWF0IjoxNzEwMjcyNDgwLCJleHAiOjE3NDE4MDg0ODB9.DMUNFr0-mMPysAdmcET77PXHb58ozQMn0TY58YaK-a8&t=2024-03-12T19%3A41%3A19.776Z"
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
@@ -114,7 +114,7 @@ export default function GeneralFiles({ refFiles }) {
           <div className="flex justify-between w-full h-12 my-2">
             <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
               <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/backupMajor.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9iYWNrdXBNYWpvci5qcGVnIiwiaWF0IjoxNzA5MjE5OTg1LCJleHAiOjE3NDA3NTU5ODV9.fYLFQ-aKIZ738EPEFDDb0n5Aqkj86Fq5Pv4Z9JeAAsw&t=2024-02-29T15%3A19%3A44.905Z"
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/backupMajors.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9iYWNrdXBNYWpvcnMuanBnIiwiaWF0IjoxNzEwMjczMDI4LCJleHAiOjE3NDE4MDkwMjh9.M5qUw07RrqBj77rwIR5vwxcno_QCPxzZKsS_VdUa58g&t=2024-03-12T19%3A50%3A26.944Z"
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
@@ -134,7 +134,7 @@ export default function GeneralFiles({ refFiles }) {
           <div className="flex justify-between w-full h-12 my-2">
             <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
               <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/transfer.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi90cmFuc2Zlci5wZGYiLCJpYXQiOjE3MDkyMjAyMjksImV4cCI6MTc0MDc1NjIyOX0.wAw7OyodcQdqpjsFD7eIYF7H8vplqqJTyN639nvP2FI&t=2024-02-29T15%3A23%3A49.511Z"
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/transferSteps1.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi90cmFuc2ZlclN0ZXBzMS5qcGciLCJpYXQiOjE3MTAyNzI1MjksImV4cCI6MTc0MTgwODUyOX0.iL-y7WKvEs6mY5ZzPdt-HPNMxevSbxBlVWAjrmrSVy0&t=2024-03-12T19%3A42%3A08.281Z"
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
@@ -154,7 +154,7 @@ export default function GeneralFiles({ refFiles }) {
           <div className="flex justify-between w-full h-12 my-2">
             <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
               <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/gradingScale.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9ncmFkaW5nU2NhbGUuanBlZyIsImlhdCI6MTcwOTIyMDUyMiwiZXhwIjoxNzQwNzU2NTIyfQ.YvOKUULecQZ92h6K90DyzIkHP-hPHEtXJbXci_ueLUE&t=2024-02-29T15%3A28%3A42.497Z"
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/gradingsScale.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9ncmFkaW5nc1NjYWxlLmpwZyIsImlhdCI6MTcxMDI3MjYyOSwiZXhwIjoxNzQxODA4NjI5fQ.ZgRHf0R6JDBG9T6MGSjTI3BaSZ2D9JwI5CDs5VebWEc&t=2024-03-12T19%3A43%3A48.738Z"
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
@@ -214,27 +214,27 @@ export default function GeneralFiles({ refFiles }) {
           </div>
           {/* 11 */}
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/allowance.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9hbGxvd2FuY2UucGRmIiwiaWF0IjoxNzA5MzIyODA2LCJleHAiOjE3NDA4NTg4MDZ9.Y1i9pH74gRb1JbF58dgYIFOcaXozzMawYoRRSTntNb0&t=2024-03-01T19%3A53%3A26.653Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/allowanceSteps.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9hbGxvd2FuY2VTdGVwcy5qcGciLCJpYXQiOjE3MTAyNzI3NDksImV4cCI6MTc0MTgwODc0OX0.skhKhP96OEmzdu6hTn-n_Qo6rl15QaF7Wu7txy1n2jM&t=2024-03-12T19%3A45%3A48.257Z"
             text="المكافأة الاجتماعيه"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/internalTransferTerms.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9pbnRlcm5hbFRyYW5zZmVyVGVybXMucGRmIiwiaWF0IjoxNzA5MzIyODQ0LCJleHAiOjE3NDA4NTg4NDR9.Mzp6c3ovzVNS7zERHKp_uq9_3EIp66_T2jJVG9Adhco&t=2024-03-01T19%3A54%3A05.061Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/InternalTransferConditions.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9JbnRlcm5hbFRyYW5zZmVyQ29uZGl0aW9ucy5wZGYiLCJpYXQiOjE3MTAyNTE1MDUsImV4cCI6MTc0MTc4NzUwNX0.hg4aMlmemiv3Xn4SLvQUl0rsqUuTI1l2IcYNMAk2GIk&t=2024-03-12T13%3A51%3A45.303Z"
             text="شروط التحويل الداخلي"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/externalTransferTerms.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9leHRlcm5hbFRyYW5zZmVyVGVybXMucGRmIiwiaWF0IjoxNzA5MzIyODIzLCJleHAiOjE3NDA4NTg4MjN9.tqlUeHWsJurs9SWaF6Utx0dZH6RKkHl9lHbPOxe70y0&t=2024-03-01T19%3A53%3A43.916Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/externalTransferConditions.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9leHRlcm5hbFRyYW5zZmVyQ29uZGl0aW9ucy5wZGYiLCJpYXQiOjE3MTAyNTE0NDYsImV4cCI6MTc0MTc4NzQ0Nn0.VmahFCj40NeBx-yEmSKY9KnlvnjAor_6_D-KQ8l3lUY&t=2024-03-12T13%3A50%3A46.428Z"
             text="شروط التحويل الخارجي"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/userfullInfo.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi91c2VyZnVsbEluZm8ucGRmIiwiaWF0IjoxNzA5MzIzMDk1LCJleHAiOjE3NDA4NTkwOTV9.Gjwl7JSXaoeLbNNSinraS51zmq2zx6_Z1Xk8OYYsdUE&t=2024-03-01T19%3A58%3A15.124Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/interestingInfor.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9pbnRlcmVzdGluZ0luZm9yLnBkZiIsImlhdCI6MTcxMDI3Mjc5NywiZXhwIjoxNzQxODA4Nzk3fQ.dtBi6RzanIt0jjMs4_Cf9QTgCjNfL3LSY00gSmImHco&t=2024-03-12T19%3A46%3A36.061Z"
             text="معلومات تهمك"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/majorSheets.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9tYWpvclNoZWV0cy5wZGYiLCJpYXQiOjE3MDkzMjI4OTMsImV4cCI6MTc0MDg1ODg5M30.hSSUDL-H9pRUPlCDbImecV7N9ShgJtlWuRk5bB1dgcU&t=2024-03-01T19%3A54%3A53.875Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/majorSheet.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9tYWpvclNoZWV0LnBkZiIsImlhdCI6MTcxMDI1MTM5NCwiZXhwIjoxNzQxNzg3Mzk0fQ.wR5aXXNpLZ_AlmPPZVoRUeQOB0eGpdggKlZ_9SzNvVY&t=2024-03-12T13%3A49%3A54.230Z"
             text="مجرشيت تخصصات كليه العلوم"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/summaryForMajors.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9zdW1tYXJ5Rm9yTWFqb3JzLnBkZiIsImlhdCI6MTcwOTMyMzA4MSwiZXhwIjoxNzQwODU5MDgxfQ.N3_HW1i0YEW5Ungw2VSQpXycVnE53qWYE0DyAfV6rgk&t=2024-03-01T19%3A58%3A01.353Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/ScienceMajorSummary.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9TY2llbmNlTWFqb3JTdW1tYXJ5LnBkZiIsImlhdCI6MTcxMDI1MTMzMywiZXhwIjoxNzQxNzg3MzMzfQ.xtt1nY6R-G1ogT_sfiiXk6oDehg_5Q2j6Ec8zYksB18&t=2024-03-12T13%3A48%3A52.815Z"
             text="نبذه عن تخصصات كليه العلوم"
           />
           <File
@@ -246,7 +246,7 @@ export default function GeneralFiles({ refFiles }) {
             text="رموز المباني"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/activateAccount.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9hY3RpdmF0ZUFjY291bnQucGRmIiwiaWF0IjoxNzA5MzIyNzUxLCJleHAiOjE4NjcwMDI3NTF9.aOUVniAsRNnTMHQpXSy7LUQB-d_obpae7lA4GoXRxS0&t=2024-03-01T19%3A52%3A31.591Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/activeTeamsAccount.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9hY3RpdmVUZWFtc0FjY291bnQuanBnIiwiaWF0IjoxNzEwMjcyODI2LCJleHAiOjE3NDE4MDg4MjZ9.xkrh4TkRpOchnP8-UeOa7EOokUZWe_Bl3VcO0xRG1gc&t=2024-03-12T19%3A47%3A05.395Z"
             text="تفعيل الحساب في تيمز"
           />
           <File
@@ -254,19 +254,19 @@ export default function GeneralFiles({ refFiles }) {
             text="التخصصات النادره "
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/userfullInfo.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi91c2VyZnVsbEluZm8ucGRmIiwiaWF0IjoxNzA5MzIzMDk1LCJleHAiOjE3NDA4NTkwOTV9.Gjwl7JSXaoeLbNNSinraS51zmq2zx6_Z1Xk8OYYsdUE&t=2024-03-01T19%3A58%3A15.124Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/warnings.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi93YXJuaW5ncy5wZGYiLCJpYXQiOjE3MTAyNzI4NTQsImV4cCI6MTc0MTgwODg1NH0.Bd5nRQYEDRuA4VqeK3k1mQKwUUX-zsWaj3iKucN-MOA&t=2024-03-12T19%3A47%3A33.637Z"
             text="الإنذارات الجامعية"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/jobs.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9qb2JzLnBkZiIsImlhdCI6MTcwOTMyMjg3NSwiZXhwIjoxNzQwODU4ODc1fQ.idLPjBtVqQkxaTDJPOv_-oirZTQmoxqCbGUTax14npk&t=2024-03-01T19%3A54%3A35.941Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/jobDomains.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9qb2JEb21haW5zLnBkZiIsImlhdCI6MTcxMDI3Mjg3NSwiZXhwIjoxNzQxODA4ODc1fQ.swS7k3C2BvyQHTceqvvLHCuXzi7do8_9niMzopTTZa4&t=2024-03-12T19%3A47%3A54.621Z"
             text="مجالات العمل والمسمى الوظيفي"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/perksOfCollageEmail.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9wZXJrc09mQ29sbGFnZUVtYWlsLnBkZiIsImlhdCI6MTcwOTMyMjk1NSwiZXhwIjoxNzQwODU4OTU1fQ.RJE1C5Qno1Opb3nrQdZgML-vDUa0LBw_B789fj4XB2g&t=2024-03-01T19%3A55%3A55.472Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/perksofemail.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9wZXJrc29mZW1haWwucGRmIiwiaWF0IjoxNzEwMjcyOTExLCJleHAiOjE3NDE4MDg5MTF9.Bkmg9HfkJEnmkcLsv5hxZ1wMcnkXJTXfQwMXMXe88z0&t=2024-03-12T19%3A48%3A30.762Z"
             text="مميزات الايميل الجامعي"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/numbersOfInterestTou.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9udW1iZXJzT2ZJbnRlcmVzdFRvdS5wZGYiLCJpYXQiOjE3MDkzMjI5MjEsImV4cCI6MTc0MDg1ODkyMX0.5NKt-K_NIZZUvBx0cHOtMUJyB_KnjXT-15rt09-mFrE&t=2024-03-01T19%3A55%3A21.389Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/numbersInterseting.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9udW1iZXJzSW50ZXJzZXRpbmcuanBnIiwiaWF0IjoxNzEwMjczMDUxLCJleHAiOjE3NDE4MDkwNTF9.y9y2qH9dc0WAFqlx5kymPZOXpFcg-A2sbeoTdNIjvHo&t=2024-03-12T19%3A50%3A49.999Z"
             text="أرقام تهمك"
           />
         </div>
