@@ -42,7 +42,7 @@ export default function Advertisement({ refAdvertise }) {
   }, []);
   return (
     <div className="w-full h-auto" ref={refAdvertise}>
-      <h2 className="text-xl tracking-wide text-right font-trika mb-2">
+      <h2 className="text-xl tracking-wide text-right font-trika mb-4">
         الإعلانات
       </h2>
       <Carousel className="w-full md:h-[450px] h-[200px]">
