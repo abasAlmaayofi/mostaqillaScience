@@ -74,7 +74,7 @@ export default function GeneralFiles({ refFiles }) {
           <div className="flex justify-between w-full h-12 my-2">
             <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
               <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/registerationAndwithdraw.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9yZWdpc3RlcmF0aW9uQW5kd2l0aGRyYXcucGRmIiwiaWF0IjoxNzEwMjcyNDU5LCJleHAiOjE3NDE4MDg0NTl9.3fqvxmWXGD3a1-lczmorj8j9wvM7sa0V-_1ZJkxF3F4&t=2024-03-12T19%3A40%3A58.416Z"
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/registrationVideo.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9yZWdpc3RyYXRpb25WaWRlby5tcDQiLCJpYXQiOjE3MTAzNDkxNzYsImV4cCI6MTc0MTg4NTE3Nn0.yZQAKu-6rG1LYbYX3PPN6GmIVLrTomSL5uahSB4lmbc&t=2024-03-13T16%3A59%3A36.104Z"
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
@@ -242,7 +242,7 @@ export default function GeneralFiles({ refFiles }) {
             text="أسماء وأرقام بعض المقررات"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/buildingSymbols.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9idWlsZGluZ1N5bWJvbHMucGRmIiwiaWF0IjoxNzA5MzIyNzkyLCJleHAiOjE4NjcwMDI3OTJ9.4Vv7S8ZS96ts6J3OulxMndQPHNrBCYTrjHI9sYSGeyY&t=2024-03-01T19%3A53%3A12.169Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/buildingSymbols2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9idWlsZGluZ1N5bWJvbHMyLmpwZyIsImlhdCI6MTcxMDM0OTAwMiwiZXhwIjoxNzQxODg1MDAyfQ.knSGegA1bwWMccEZ_0eXVl1UYGRwGY7vYqRzPK9788s&t=2024-03-13T16%3A56%3A41.545Z"
             text="رموز المباني"
           />
           <File
