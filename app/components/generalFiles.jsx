@@ -196,7 +196,7 @@ export default function GeneralFiles({ refFiles }) {
           <div className="flex justify-between w-full h-12 my-2">
             <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
               <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/servicesAvailable.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9zZXJ2aWNlc0F2YWlsYWJsZS5wbmciLCJpYXQiOjE3MDkyMjc0NDYsImV4cCI6MTc0MDc2MzQ0Nn0.8Q554G-BqZmoy3t9LjaT2639ANOfeR68NZCTYv1xi7Q&t=2024-02-29T17%3A24%3A06.644Z"
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/servicesNorthSouth.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9zZXJ2aWNlc05vcnRoU291dGguanBnIiwiaWF0IjoxNzEwMzIzMTg0LCJleHAiOjE3NDE4NTkxODR9.Mquzzi25R7n8Rrs_BtVltFzENg1rdIrWJoLnA2UTAdI&t=2024-03-13T09%3A46%3A26.090Z"
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
@@ -238,7 +238,7 @@ export default function GeneralFiles({ refFiles }) {
             text="نبذه عن تخصصات كليه العلوم"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/namesAndNumbers.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9uYW1lc0FuZE51bWJlcnMucGRmIiwiaWF0IjoxNzA5MzIyOTA3LCJleHAiOjE3NDA4NTg5MDd9.1PGQMe17hvneD84FKfaPrhnO2v90xrF4YMh1aZ_4xq0&t=2024-03-01T19%3A55%3A07.345Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/namesAndNumbersMajors.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9uYW1lc0FuZE51bWJlcnNNYWpvcnMucGRmIiwiaWF0IjoxNzEwMzIzMTE4LCJleHAiOjE3NDE4NTkxMTh9.anD2gYelmHwJnxY8gKo3E_71pJCoFu41mMvFn7cKEwk&t=2024-03-13T09%3A45%3A20.085Z"
             text="أسماء وأرقام بعض المقررات"
           />
           <File
@@ -250,7 +250,7 @@ export default function GeneralFiles({ refFiles }) {
             text="تفعيل الحساب في تيمز"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/rareMajors.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9yYXJlTWFqb3JzLmpwZWciLCJpYXQiOjE3MDkzMjI5NjksImV4cCI6MTc0MDg1ODk2OX0.kg140m64p9krJHNIpYUBNHtW53LO8YJaPBM22lGyImw&t=2024-03-01T19%3A56%3A09.837Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/rareMajors2.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9yYXJlTWFqb3JzMi5qcGciLCJpYXQiOjE3MTAzMjMwOTIsImV4cCI6MTc0MTg1OTA5Mn0.wnSo6HPfrxfr-3mG0iFccDHIGhBEgYZ45p3-izWUX_Q&t=2024-03-13T09%3A44%3A53.991Z"
             text="التخصصات النادره "
           />
           <File
