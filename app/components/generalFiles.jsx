@@ -176,7 +176,7 @@ export default function GeneralFiles({ refFiles }) {
           <div className="flex justify-between w-full h-12 my-2">
             <div className="w-[20%] bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] h-full flex justify-center items-center text-white">
               <Link
-                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/issueID.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9pc3N1ZUlELnBuZyIsImlhdCI6MTcwOTIyNzM2MywiZXhwIjoxNzQwNzYzMzYzfQ.kqi_6gkavD_KA6MLoU0h-kSDyhCZ_NOuMG0e_ZogLKY&t=2024-02-29T17%3A22%3A42.732Z"
+                href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/public/mostaqillaSc-main/CollageID.jpg?t=2024-03-14T14%3A24%3A48.138Z"
                 className="flex justify-center items-center gap-2"
               >
                 <FaDirections size={25} />
