@@ -43,44 +43,44 @@ export default function Advertisement({ refAdvertise }) {
     setFetchedData(data);
   };
 
-  const fetchImg1 = async () => {
-    const { data, error } = supabase.storage
-      .from("mostaqillaSc-main")
-      .getPublicUrl("announcements/announcement1.png");
-    setImg1(data);
-    console.log("img1", data?.publicUrl);
-    if (error) {
-      console.log("img err1", error);
-    }
-  };
+  // const fetchImg1 = async () => {
+  //   const { data, error } = supabase.storage
+  //     .from("mostaqillaSc-main")
+  //     .getPublicUrl("announcements/announcement1.png");
+  //   setImg1(data);
+  //   console.log("img1", data?.publicUrl);
+  //   if (error) {
+  //     console.log("img err1", error);
+  //   }
+  // };
 
-  const fetchImg2 = async () => {
-    const { data, error } = supabase.storage
-      .from("mostaqillaSc-main")
-      .getPublicUrl("announcements/announcement2.png");
-    setImg2(data);
-    console.log("img2", data?.publicUrl);
-    if (error) {
-      console.log("img err2", error);
-    }
-  };
+  // const fetchImg2 = async () => {
+  //   const { data, error } = supabase.storage
+  //     .from("mostaqillaSc-main")
+  //     .getPublicUrl("announcements/announcement2.png");
+  //   setImg2(data);
+  //   console.log("img2", data?.publicUrl);
+  //   if (error) {
+  //     console.log("img err2", error);
+  //   }
+  // };
 
-  const fetchImg3 = async () => {
-    const { data, error } = supabase.storage
-      .from("mostaqillaSc-main")
-      .getPublicUrl("announcements/announcement3.png");
-    setImg3(data);
-    console.log("img3", data?.publicUrl);
-    if (error) {
-      console.log("img err3", error);
-    }
-  };
+  // const fetchImg3 = async () => {
+  //   const { data, error } = supabase.storage
+  //     .from("mostaqillaSc-main")
+  //     .getPublicUrl("announcements/announcement3.png");
+  //   setImg3(data);
+  //   console.log("img3", data?.publicUrl);
+  //   if (error) {
+  //     console.log("img err3", error);
+  //   }
+  // };
 
   useEffect(() => {
     fetchData();
-    fetchImg1();
-    fetchImg2();
-    fetchImg3();
+    // fetchImg1();
+    // fetchImg2();
+    // fetchImg3();
   }, []);
   return (
     <div className="w-full h-auto" ref={refAdvertise}>
@@ -98,9 +98,9 @@ export default function Advertisement({ refAdvertise }) {
         showStatus={false}
         className="w-full md:h-[450px] h-[200px]"
       >
-        <Announcement img={img1?.publicUrl} fetchedData={fetchedData} num={1} />
-        <Announcement img={img2?.publicUrl} fetchedData={fetchedData} num={2} />
-        <Announcement img={img3?.publicUrl} fetchedData={fetchedData} num={3} />
+        <Announcement img={announcementImg} fetchedData={fetchedData} num={1} />
+        <Announcement img={announcementImg} fetchedData={fetchedData} num={2} />
+        <Announcement img={announcementImg} fetchedData={fetchedData} num={3} />
       </Carousel>
     </div>
   );
