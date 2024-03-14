@@ -25,7 +25,7 @@ import { supabase } from "../services/supabaseClient";
 import Header2 from "../components/header2";
 
 export default function Admin() {
-  const fileTypes = ["JPG", "PNG"];
+  const fileTypes = ["PNG"];
   const [title, setTitle] = useState(null);
   const [description, setDescription] = useState(null);
   const [id, setId] = useState(1);
@@ -54,16 +54,17 @@ export default function Admin() {
         .from("announcements")
         .update({ title: title, description: description, link: link })
         .eq("id", id);
-      // const { data, error: error2 } = await supabase.storage
-      //   .from("mostaqillaSc-main")
-      //   .upload(`announcements/announcements${id}.png`, file, {
-      //     cacheControl: "3600",
-      //     upsert: true,
-      //   });
-      // console.log(file);
-      // console.log("success");
+      const { data, error: error2 } = await supabase.storage
+        .from("mostaqillaSc-main")
+        .upload(`announcements/announcement${id}.png`, file, {
+          cacheControl: "3600",
+          upsert: true,
+        });
+      console.log(file);
+      console.log(data);
+      console.log("success");
       openNotificationWithIcon("success");
-      if (error1) {
+      if (error1 || error2) {
         console.log("an error has occured!");
       }
     } catch (err) {
@@ -176,6 +177,17 @@ export default function Admin() {
                   isRequired
                   name="link"
                   onChange={(e) => setLink(e.target.value)}
+                />
+              </div>
+              <div dir="rtl" className="flex flex-col items-start gap-2 mt-4">
+                <label htmlFor="link" className="font-trika text-md">
+                  ارفق الصورة{" "}
+                </label>
+                <FileUploader
+                  handleChange={handleChange}
+                  name="file"
+                  types={fileTypes}
+                  maxSize={4}
                 />
               </div>
               {/* <div className="mt-8">
