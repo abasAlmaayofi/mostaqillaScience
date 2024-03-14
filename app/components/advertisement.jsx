@@ -8,6 +8,8 @@ import { supabase } from "../services/supabaseClient";
 import { useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Skeleton } from "@nextui-org/react";
+import Announcement from "./annoucements";
 
 export default function Advertisement({ refAdvertise }) {
   // const responsive = {
@@ -30,112 +32,75 @@ export default function Advertisement({ refAdvertise }) {
   //   },
   // };
   const [fetchedData, setFetchedData] = useState([{}]);
+  const [img1, setImg1] = useState(null);
+  const [img2, setImg2] = useState(null);
+  const [img3, setImg3] = useState(null);
+
   const fetchData = async () => {
     const { data, error } = await supabase.from("announcements").select();
     if (error) throw error;
-    console.log(data[0]);
+    console.log("fetchedData", data);
     setFetchedData(data);
+  };
+
+  const fetchImg1 = async () => {
+    const { data, error } = supabase.storage
+      .from("mostaqillaSc-main")
+      .getPublicUrl("announcements/announcement1.png");
+    setImg1(data);
+    console.log("img1", data?.publicUrl);
+    if (error) {
+      console.log("img err1", error);
+    }
+  };
+
+  const fetchImg2 = async () => {
+    const { data, error } = supabase.storage
+      .from("mostaqillaSc-main")
+      .getPublicUrl("announcements/announcement2.png");
+    setImg2(data);
+    console.log("img2", data?.publicUrl);
+    if (error) {
+      console.log("img err2", error);
+    }
+  };
+
+  const fetchImg3 = async () => {
+    const { data, error } = supabase.storage
+      .from("mostaqillaSc-main")
+      .getPublicUrl("announcements/announcement3.png");
+    setImg3(data);
+    console.log("img3", data?.publicUrl);
+    if (error) {
+      console.log("img err3", error);
+    }
   };
 
   useEffect(() => {
     fetchData();
+    fetchImg1();
+    fetchImg2();
+    fetchImg3();
   }, []);
   return (
     <div className="w-full h-auto" ref={refAdvertise}>
       <h2 className="text-xl tracking-wide text-right font-trika mb-4">
         الإعلانات
       </h2>
-      <Carousel className="w-full md:h-[450px] h-[200px]">
-        <div className="w-full md:h-[450px] h-[200px] flex ">
-          <div className="w-[50%] h-full">
-            <Image
-              alt="announcement"
-              src={announcementImg}
-              className="w-full h-full"
-            />
-          </div>
-          <div className="w-[50%] overflow-scroll  h-full bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] flex flex-col items-end text-white font-trika  p-2">
-            <h2 className="text-sm py-1 border-b border-white md:text-xl">
-              {fetchedData?.filter((obj) => obj?.id == 1)[0]?.title}
-            </h2>
-            <p className="text-[10px] text-right text-gray-200 mt-3 leading-relaxed md:text-lg md:leading-loose">
-              {fetchedData?.filter((obj) => obj?.id == 1)[0]?.description}
-            </p>
-            <Link
-              className="mt-2 underline text-xs md:text-sm flex gap-1 items-center"
-              href={
-                fetchedData?.filter((obj) => obj?.id == 1)[0]?.link
-                  ? fetchedData?.filter((obj) => obj?.id == 1)[0]?.link
-                  : ""
-              }
-            >
-              اقرأ أكثر <RiArrowLeftDoubleLine size={30} />
-            </Link>
-          </div>{" "}
-          {/* <div className="w-[50%] h-full">
-          <Image src={announcementImg} className="w-full h-full" />
-        </div> */}
-        </div>
-        <div className="w-full md:h-[450px] h-[200px] flex ">
-          {/* <div className="w-[30%] h-full">
-          <Image src={announcementImg} className="w-full h-full" />
-        </div> */}
-          <div className="w-[50%]   h-full bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] flex flex-col items-end text-white font-trika  p-2 overflow-scroll">
-            <h2 className="text-sm py-1 border-b border-white md:text-xl">
-              {fetchedData?.filter((obj) => obj?.id == 2)[0]?.title}
-            </h2>
-            <p className="text-[10px] text-right text-gray-200 mt-3 leading-relaxed md:text-lg md:leading-loose">
-              {fetchedData?.filter((obj) => obj?.id == 2)[0]?.description}
-            </p>
-            <Link
-              className="mt-2 underline text-xs md:text-sm flex gap-1 items-center"
-              href={
-                fetchedData?.filter((obj) => obj?.id == 2)[0]?.link
-                  ? fetchedData?.filter((obj) => obj?.id == 2)[0]?.link
-                  : ""
-              }
-            >
-              اقرأ أكثر <RiArrowLeftDoubleLine size={30} />
-            </Link>
-          </div>
-          <div className="w-[50%] h-full">
-            <Image
-              alt="latestNews"
-              src={latestNewsImg}
-              className="w-full h-full"
-            />
-          </div>
-        </div>
-        <div className="w-full md:h-[450px] h-[200px] flex ">
-          <div className="w-[50%] h-full">
-            <Image
-              alt="comingEvents"
-              src={comingEventsImg}
-              className="w-full h-full"
-            />
-          </div>
-          <div className="w-[50%] overflow-scroll  h-full bg-gradient-to-bl  to-[#1d87ca] from-[#054c78] flex flex-col items-end text-white font-trika  p-2">
-            <h2 className="text-sm py-1 border-b border-white md:text-xl">
-              {fetchedData?.filter((obj) => obj?.id == 3)[0]?.title}
-            </h2>
-            <p className="text-[10px] text-right text-gray-200 mt-3 leading-relaxed md:text-lg md:leading-loose">
-              {fetchedData?.filter((obj) => obj?.id == 3)[0]?.description}
-            </p>
-            <Link
-              className="mt-2 underline text-xs md:text-sm flex gap-1 items-center"
-              href={
-                fetchedData?.filter((obj) => obj?.id == 3)[0]?.link
-                  ? fetchedData?.filter((obj) => obj?.id == 3)[0]?.link
-                  : ""
-              }
-            >
-              اقرأ أكثر <RiArrowLeftDoubleLine size={30} />
-            </Link>
-          </div>{" "}
-          {/* <div className="w-[50%] h-full">
-          <Image src={announcementImg} className="w-full h-full" />
-        </div> */}
-        </div>
+      <Carousel
+        autoPlay={true}
+        emulateTouch={true}
+        infiniteLoop={true}
+        labels={false}
+        showArrows={false}
+        // transitionTime={3}
+        // showThumbs={false}
+        showStatus={false}
+        className="w-full md:h-[450px] h-[200px]"
+      >
+        <Announcement img={img1?.publicUrl} fetchedData={fetchedData} num={1} />
+        <Announcement img={img2?.publicUrl} fetchedData={fetchedData} num={2} />
+        <Announcement img={img3?.publicUrl} fetchedData={fetchedData} num={3} />
       </Carousel>
     </div>
   );
