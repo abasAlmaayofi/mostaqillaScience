@@ -11,19 +11,19 @@ import { supabase } from "../services/supabaseClient";
 import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
 export default function Screen({ handleClickAdvertise, handleClickFiles }) {
-  const [visitorsCounter, setVisitorsCounter] = useState(null);
-  const getVisitorsCount = async () => {
-    const { data, error } = await supabase.from("stat").select().eq("id", 1);
-    console.log("data visitors", data);
-    setVisitorsCounter(data?.[0]?.visitorsCounter);
-    if (error) {
-      console.log("Err", error);
-    }
-    // return setVisitorsCounter(data);
-  };
-  useEffect(() => {
-    getVisitorsCount();
-  }, [visitorsCounter]);
+  // const [visitorsCounter, setVisitorsCounter] = useState(null);
+  // const getVisitorsCount = async () => {
+  //   const { data, error } = await supabase.from("stat").select().eq("id", 1);
+  //   console.log("data visitors", data);
+  //   setVisitorsCounter(data?.[0]?.visitorsCounter);
+  //   if (error) {
+  //     console.log("Err", error);
+  //   }
+  //   // return setVisitorsCounter(data);
+  // };
+  // useEffect(() => {
+  //   getVisitorsCount();
+  // }, [visitorsCounter]);
   return (
     <div className="relative w-screen h-screen">
       <Image
