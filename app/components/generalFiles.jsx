@@ -222,7 +222,7 @@ export default function GeneralFiles({ refFiles }) {
             text="شروط التحويل الداخلي"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/externalTransferConditions.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9leHRlcm5hbFRyYW5zZmVyQ29uZGl0aW9ucy5wZGYiLCJpYXQiOjE3MTAyNTE0NDYsImV4cCI6MTc0MTc4NzQ0Nn0.VmahFCj40NeBx-yEmSKY9KnlvnjAor_6_D-KQ8l3lUY&t=2024-03-12T13%3A50%3A46.428Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/public/mostaqillaSc-main/externalTransferConditions2.pdf?t=2024-04-18T03%3A50%3A06.077Z"
             text="شروط التحويل الخارجي"
           />
           <File
@@ -258,7 +258,7 @@ export default function GeneralFiles({ refFiles }) {
             text="الإنذارات الجامعية"
           />
           <File
-            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/sign/mostaqillaSc-main/jobDomains.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtb3N0YXFpbGxhU2MtbWFpbi9qb2JEb21haW5zLnBkZiIsImlhdCI6MTcxMDI3Mjg3NSwiZXhwIjoxNzQxODA4ODc1fQ.swS7k3C2BvyQHTceqvvLHCuXzi7do8_9niMzopTTZa4&t=2024-03-12T19%3A47%3A54.621Z"
+            href="https://pojlcikkchhymaiqcdex.supabase.co/storage/v1/object/public/mostaqillaSc-main/jobDomains2.pdf?t=2024-04-18T03%3A37%3A58.213Z"
             text="مجالات العمل والمسمى الوظيفي"
           />
           <File
