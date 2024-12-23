@@ -59,8 +59,8 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="/static/favicon.ico" />
       </Head> */}
       <body>
-        <h1>Page Not Found</h1>
-        {/* <NextUIProviders>{children}</NextUIProviders> */}
+        
+         <NextUIProviders>{children}</NextUIProviders> 
       </body>
     </html>
   );
